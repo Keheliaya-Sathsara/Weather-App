@@ -5,9 +5,13 @@ class GetStarted extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Size size = MediaQuery.of(context).size;
+
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Weather App'),
+      body: Container(
+        width: size.width,
+        height: size.height,
+        color: Colors.deepPurpleAccent,
       ),
     );
   }
