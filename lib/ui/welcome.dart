@@ -2,6 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:weather_app/models/city.dart';
 import 'package:weather_app/models/constants.dart';
+import 'package:weather_app/ui/home.dart';
 
 class Welcome extends StatefulWidget {
   const Welcome({super.key});
@@ -71,9 +72,7 @@ class _WelcomeState extends State<Welcome> {
         backgroundColor: myConstants.secondaryColor,
         child: const Icon(Icons.pin_drop),
         onPressed: (){
-          if (kDebugMode) {
-            print(selectedCities.length);
-          }
+          Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => const Home()));
         },
       ),
     );
