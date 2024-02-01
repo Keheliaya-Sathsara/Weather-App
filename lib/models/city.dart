@@ -84,6 +84,21 @@ class City{
         city: 'Nairobi',
         country: 'Kenya',
         isDefault: false),
+    City(
+        isSelected: false,
+        city: 'Colombo',
+        country: 'Sri Lanka',
+        isDefault: false),
+    City(
+        isSelected: false,
+        city: 'Kandy',
+        country: 'Sri Lanka',
+        isDefault: false),
+    City(
+        isSelected: false,
+        city: 'Zidny',
+        country: 'Australia',
+        isDefault: false),           
   ];
 
   //   Get the selected cities
