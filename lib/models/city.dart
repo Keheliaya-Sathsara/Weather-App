@@ -98,6 +98,16 @@ class City{
         isSelected: false,
         city: 'Zidny',
         country: 'Australia',
+        isDefault: false),
+    City(
+        isSelected: false,
+        city: 'Washington',
+        country: 'United State',
+        isDefault: false),
+    City(
+        isSelected: false,
+        city: 'Moscow',
+        country: 'Russiya',
         isDefault: false),           
   ];
 
